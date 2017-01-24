@@ -1,5 +1,14 @@
-section{
-border: solid;
-background-color: grey;
-margin-top: 20px;
+h1{
+text-align:center;
+}
+#main{
+width:1000px;
+}
+.content{
+  box-sizing: border-box;
+  margin: 10px;
+  float:left;
+  border: solid;
+  width: 200px;
+  height:300;
 }
