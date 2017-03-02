@@ -10,7 +10,6 @@ text-align:center;
 #main{
   width: 100%;
   height: 100%;
-  border: 1px solid black;
 }
 #l1{
   background-color: pink;
@@ -62,5 +61,13 @@ text-align:center;
 /********Mobile**********/
 @media (max-width:767px)
 {
-
+  .content{
+    clear: both;
+  }
+  #d1{
+  }
+  #d2{
+  }
+  #d3{
+  }
 }
