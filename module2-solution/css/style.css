@@ -32,42 +32,10 @@ text-align:center;
 }
 .content{
   position: relative;
-  margin: 5px;
-  padding: 30px;
-  float: left;
+  padding: 10px;
   background-color: gray;
   border: solid 1px;
 }
 /********PC**********/
-@media (min-width:992px){
-  .content{
-    width: 31%;
-  }
-}
 /********Tablet**********/
-@media (min-width:768px) and (max-width:991px)
-{
-  #d1{
-    width: 47%;
-  }
-  #d2{
-    width: 47%;
-  }
-  #d3{
-    width: 96%;
-    clear: both;
-  }
-}
 /********Mobile**********/
-@media (max-width:767px)
-{
-  .content{
-    clear: both;
-  }
-  #d1{
-  }
-  #d2{
-  }
-  #d3{
-  }
-}
