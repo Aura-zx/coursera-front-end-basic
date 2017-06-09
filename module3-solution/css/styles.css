@@ -1,7 +1,6 @@
 body{
     font-size: 16px;
     color: #fff;
-    background-color: #61122f;
     font-family: 'Oxygen', sans-serif;
 }
 
@@ -14,7 +13,7 @@ body{
 
 .navbar-brand h1{
     font-family: 'Lore', serif;
-    color:#557c3e;
+    color: purple;
     font-size: 1.5em;
     text-transform: uppercase;
     font-weight: bold;
@@ -23,3 +22,31 @@ body{
     margin-bottom: 0;
     line-height: .75;
 }
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+
+#nav-list a{
+    color:#951c49;
+    text-align: center;
+}
+#nav-list a:hover{
+    background: #e7e7e7;
+}
+#nav-list a span{
+    font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .iconbar{
+    border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle{    /* after clear, button own a new line*/
+    clear: both;                        /* reduce margin-top can make them in one line.*/
+    margin-top: -40px;
+}
+
+body h1{
+    color: black;
+}
+
